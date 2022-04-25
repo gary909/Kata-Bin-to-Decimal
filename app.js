@@ -1,5 +1,6 @@
 function binToDec(bin) {
-    // ...
+    let string2Int = parseInt(bin, 2);
+    return string2Int;
 }
 
 console.log(binToDec('1')) // 1
